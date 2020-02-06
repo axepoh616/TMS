@@ -34,22 +34,22 @@
 // NotASingleSoulInGroup.lastName = "Smith";
 // NotASingleSoulInGroup.age = "25";
 // NotASingleSoulInGroup.gender = "male";
-var NoOne = {
+var obj1 = {
     name: "John",
     lastName: "Smith",
     age: "25",
     gender: "male"
 }
-var AbsolutelyNobody = {
+var obj2 = {
     name: "Marta",
     lastName: "Miller",
     age: "23",
     gender: "female"
 }
-var NotASingleSoulInGroup = {
+var obj3 = {
     name: "Alex",
     lastName: "Pupochkin",
     age: "30",
     gender: "male"
 }
-var arr = ["NoOne", "AbsolutelyNobody", "NotASingleSoulInGroup"];
+var arr = ["obj1", "obj2", "obj3"];
