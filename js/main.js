@@ -1,5 +1,5 @@
 
-// v
+// var arr=["NoOne","AbsolutelyNobody","NotASingleSoulInGroup"];
 // let NoOne = {
 //     name: "John",
 //     lastName: "Smith",
@@ -19,19 +19,26 @@
 //     gender: "male"
 // };
 
-var NoOne = new Object();
-NoOne.name = "John";
-NoOne.lastName = "Smith";
-NoOne.age = "25";
-NoOne.gender = "male";
-var AbsolutelyNobody = new Object();
-AbsolutelyNobody.name = "John";
-AbsolutelyNobody.lastName = "Smith";
-AbsolutelyNobody.age = "25";
-AbsolutelyNobody.gender = "male";
-var NotASingleSoulInGroup = new Object();
-NotASingleSoulInGroup.name = "John";
-NotASingleSoulInGroup.lastName = "Smith";
-NotASingleSoulInGroup.age = "25";
-NotASingleSoulInGroup.gender = "male";
-let arr = ["NoOne", "AbsolutelyNobody", "NotASingleSoulInGroup"];
+// var NoOne = new Object();
+// NoOne.name = "John";
+// NoOne.lastName = "Smith";
+// NoOne.age = "25";
+// NoOne.gender = "male";
+// var AbsolutelyNobody = new Object();
+// AbsolutelyNobody.name = "John";
+// AbsolutelyNobody.lastName = "Smith";
+// AbsolutelyNobody.age = "25";
+// AbsolutelyNobody.gender = "male";
+// var NotASingleSoulInGroup = new Object();
+// NotASingleSoulInGroup.name = "John";
+// NotASingleSoulInGroup.lastName = "Smith";
+// NotASingleSoulInGroup.age = "25";
+// NotASingleSoulInGroup.gender = "male";
+var arrPeople = [];
+arrPeople[0] = {
+    name: "John",
+    lastName: "Smith",
+    age: "25",
+    gender: "male"
+}
+var People = Object.values(arrPeople);
