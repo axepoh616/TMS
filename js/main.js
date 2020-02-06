@@ -52,4 +52,4 @@ var obj3 = {
     age: "30",
     gender: "male"
 }
-var arr = ["obj1", "obj2", "obj3"];
+var arr = [obj1, obj2, obj3];
