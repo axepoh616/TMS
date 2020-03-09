@@ -36,7 +36,6 @@ const submit = () => {
         const result = document.getElementById('result')
         const curId = select.options[select.selectedIndex].dataset.curId
         const rate = await http(`https://nbrb.by/api/exrates/rates/${curId}`)
-        const scale = await http(`https://nbrb.by/api/exrates/rates/${curId}`)
 
         const currentCurrencyValue = document.getElementById(`current_currency`).value
         const composition = Number(currentCurrencyValue) / rate.Cur_OfficialRate * scale.Cur_Scale
