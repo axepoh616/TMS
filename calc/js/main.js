@@ -1,4 +1,4 @@
-const curId = [145, 292, 143] // 298=ид для рос рубля!
+const curId = [145, 292, 143, 298]
 
 const http = async (url) => {
     const responce = await fetch(url)
