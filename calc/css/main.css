@@ -1,0 +1,23 @@
+.calc {
+    width: 350px;
+}
+
+.calc_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current_currency, .new_currency {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_result {
+    text-align: left;
+}
+
+.nc {
+    padding-right: 15px;
+}
