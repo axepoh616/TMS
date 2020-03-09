@@ -5,6 +5,7 @@ const http = async (url) => {
     return await responce.json()
 }
 
+
 const getCurrency = async () => {
     const select = document.getElementById('currencys')
     for (let i = 0; i < curId.length; i++) {
